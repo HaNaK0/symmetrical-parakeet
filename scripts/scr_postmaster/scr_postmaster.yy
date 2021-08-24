@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_enum_events",
+  "name": "scr_postmaster",
   "tags": [],
   "resourceType": "GMScript",
 }

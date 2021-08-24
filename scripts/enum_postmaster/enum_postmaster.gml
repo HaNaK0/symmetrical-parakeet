@@ -1,0 +1,4 @@
+enum Channels {
+	Movement,
+	Size,
+}

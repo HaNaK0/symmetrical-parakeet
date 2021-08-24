@@ -3,3 +3,6 @@ function showError(_str, _abort){
 	show_error(_str, _abort);
 }
 
+function showWarning(_str) {
+	show_error(_str, false);
+}

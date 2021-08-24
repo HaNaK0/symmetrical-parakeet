@@ -1,7 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"enum_postmaster","path":"scripts/enum_postmaster/enum_postmaster.yy",},"order":0,},
     {"id":{"name":"obj_player_rt","path":"objects/obj_player_rt/obj_player_rt.yy",},"order":0,},
-    {"id":{"name":"scr_messages","path":"scripts/scr_messages/scr_messages.yy",},"order":4,},
+    {"id":{"name":"scr_log","path":"scripts/scr_log/scr_log.yy",},"order":2,},
     {"id":{"name":"ctrl_postmaster","path":"objects/ctrl_postmaster/ctrl_postmaster.yy",},"order":5,},
     {"id":{"name":"ctrl_globals","path":"objects/ctrl_globals/ctrl_globals.yy",},"order":3,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":0,},
@@ -11,13 +12,15 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":2,},
     {"id":{"name":"obj_tb_charachter","path":"objects/obj_tb_charachter/obj_tb_charachter.yy",},"order":0,},
     {"id":{"name":"obj_tb_player","path":"objects/obj_tb_player/obj_tb_player.yy",},"order":1,},
+    {"id":{"name":"scr_postmaster","path":"scripts/scr_postmaster/scr_postmaster.yy",},"order":3,},
+    {"id":{"name":"enum_events","path":"scripts/enum_events/enum_events.yy",},"order":1,},
+    {"id":{"name":"scr_message","path":"scripts/scr_message/scr_message.yy",},"order":4,},
     {"id":{"name":"tiles_road","path":"tilesets/tiles_road/tiles_road.yy",},"order":1,},
     {"id":{"name":"scr_globals","path":"scripts/scr_globals/scr_globals.yy",},"order":0,},
-    {"id":{"name":"scr_enum_events","path":"scripts/scr_enum_events/scr_enum_events.yy",},"order":1,},
     {"id":{"name":"spr_road","path":"sprites/spr_road/spr_road.yy",},"order":1,},
     {"id":{"name":"ctrl_saveManager","path":"objects/ctrl_saveManager/ctrl_saveManager.yy",},"order":4,},
     {"id":{"name":"ctrl_navMesh","path":"objects/ctrl_navMesh/ctrl_navMesh.yy",},"order":6,},
-    {"id":{"name":"scr_mesh","path":"scripts/scr_mesh/scr_mesh.yy",},"order":3,},
+    {"id":{"name":"scr_mesh","path":"scripts/scr_mesh/scr_mesh.yy",},"order":1,},
     {"id":{"name":"rm_test_1","path":"rooms/rm_test_1/rm_test_1.yy",},"order":0,},
   ],
   "Options": [
@@ -53,6 +56,7 @@
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/RealTime.yy","order":1,"resourceVersion":"1.0","name":"RealTime","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Turn based.yy","order":2,"resourceVersion":"1.0","name":"Turn based","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Enums.yy","order":15,"resourceVersion":"1.0","name":"Enums","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -62,7 +66,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.3.570",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "TurnBased",
